@@ -1,3 +1,4 @@
+
 vetPrice = []
 vetG = []
 vetRT = []
@@ -22,8 +23,10 @@ i=0
 while i < 5:
     if i ==0:
         vetGp[i] = 0 + (1/vetG[i])
+        print(vetGp)
     else:
         vetGp[i] =vetGp[i-1] +(1/vetG[i])
+        print(vetGp)
     i = i+1
   
 i=0  
@@ -38,9 +41,10 @@ while i < 5:
     
 
 
-resp8 = quantidade / vetGp[classeCortada - 3]
+resp8 = quantidade / vetGp[classeCortada - 2]
 
 print("5- A classe a ser removida é:",otimo)
 print("5- O retorno ótimo e sustentável é:",otimo * quantidade)
 print("8- A quantidade de árvores removidas da floresta em cada colheita, em uma política de retorno sustentável ótimo é:",resp8)
     
+
