@@ -1,10 +1,3 @@
-'''
-
-                            Online Python Debugger.
-                Code, Run and Debug Python program online.
-Write your code in this editor and press "Debug" button to debug program.
-
-'''
 vetPrice = []
 vetG = []
 vetRT = []
@@ -31,7 +24,6 @@ while i < 5:
         vetGp[i] = 0 + (1/vetG[i])
     else:
         vetGp[i] =vetGp[i-1] +(1/vetG[i])
-        print(vetGp)
     i = i+1
   
 i=0  
@@ -47,9 +39,8 @@ while i < 5:
 
 
 resp8 = quantidade / vetGp[classeCortada - 3]
-print(vetGp[classeCortada-3])
+
 print("5- A classe a ser removida é:",otimo)
 print("5- O retorno ótimo e sustentável é:",otimo * quantidade)
 print("8- A quantidade de árvores removidas da floresta em cada colheita, em uma política de retorno sustentável ótimo é:",resp8)
     
-
